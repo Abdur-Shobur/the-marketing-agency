@@ -1,0 +1,76 @@
+
+@media only screen and (max-width:1500px){
+    .right_side_btn{
+        display: none;
+    }
+    html{
+        font-size: 15px;
+    }
+    .resend_work {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .resend_work .resend_work_slider { 
+    width: 100%; 
+}
+.resend_work .resend_work_text {
+    width: 70%;
+}
+}
+ 
+@media only screen and (max-width:1200px){
+      html{
+        font-size: 10px;
+    }
+    .banner_section_wrap,.about_us {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10rem 0;
+    }
+     
+}
+
+@media only screen and (max-width:1150px){
+    .main_nav{
+        display: none;
+    }
+    .mobile_toggle{
+        display: block;
+    }
+}
+@media only screen and (max-width:950px){
+   .our_service_section .service_one {
+ 
+	max-width: 100%; 
+}
+.slider_wrap {
+    min-width: 250px;
+}
+.resend_work .resend_work_slider {
+   flex-wrap: wrap;
+        width: 100%;
+    justify-content: center;
+    gap: 60px;
+}
+.about_us .line_one {
+    width: 100%
+}
+ 
+}
+@media only screen and (max-width:600px){
+   
+  .container_fluid{
+    width: calc(100% - 50px);
+    max-width: 1920px;
+  
+    margin: 0 auto;
+ }
+ 
+}
+@media only screen and (max-width:350px){
+   
+ body{
+    overflow: hidden;
+ }
+}

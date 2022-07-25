@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+     
+}
+ 
+html{
+  font-size: 20px;
+}
+ul,li{
+  list-style: none;
+}
+img{
+  width: 100%;
+}
+:root {
+    --menu_color: rgb(44, 255, 165);
+    --heading_color: rgb(255, 39, 89);
+    --global_color_2: #81f;
+    --title_color:#ffbd10;
+    --header_color:#0c1014;
+    --color-fff:#fff;
+    --global-color-bg: transparent linear-gradient(0deg,#0c1014 0%,#0c1014 53%,#111823 100%) 0% 0% no-repeat padding-box;
+    --global-color-text:#cbcbcb;
+    --global-color-icon:#4a4bff;
+  }
+
+  .container_fluid{
+    width: calc(100% - 200px);
+    max-width: 1920px;
+  
+    margin: 0 auto;
+ }
+ .full_wrap_for_bg{
+  background: var(--global-color-bg);
+}
+ .style_bg {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-fff);
+ }
+/* button css */
+.btn {
+  background-image: linear-gradient(to right, var(--heading_color) 0%, #2900bd  51%, var(--global_color_2)  100%);
+  background-image: -webkit-linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+  background-image: -ms-linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+  background-image: -o-linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+}
+.btn {
+ margin: 10px;
+ padding: 15px 45px;
+ text-align: center;
+ transition: 0.5s;
+ background-size: 200% auto;
+ color: white;            
+ box-shadow: 0 10px 15px 0 rgba(248, 93, 129, 0.055);
+ border-radius: 35px;
+
+}
+
+.btn:hover {
+ background-position: right center; 
+ color: #fff;
+ box-shadow: 0 10px 15px 0 rgba(240, 9, 63, 0.2);
+}
+
+.btn_1 {
+  background-color: #1d2025;
+}
+.btn_1 {
+ margin: 10px;
+ padding: 15px 45px;
+ text-align: center;
+ transition: 0.5s;
+ background-size: 200% auto;
+ color: white;            
+ border-radius: 35px;
+
+}
+
+.btn_1:hover {
+ background-position: right center; 
+ color: #fff;
+}
+
+.style_bg{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-fff);
+
+}
+.banner_heading{
+  color: var(--color-fff);
+  margin: 20px 0;
+  font-size: 1.8rem;
+}
+.banner_text{
+  color: var(--global-color-text);
+    font-size: 18px;
+}
+.style_text_color{
+  background: var(--heading_color);
+  border-radius: 10px 0 10px 0px;
+  padding: 5px;
+  transition: .5s;
+}
+  /* flex css */
+.d-flex{
+  display: flex;
+}
+.j-c-center{
+  justify-content: center;
+}
+.j-c-around {
+  justify-content: space-around;
+}
+.j-c-between {
+  justify-content: space-between;
+}
+.a-center{
+  align-items: center;
+}
+
+
+
